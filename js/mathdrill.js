@@ -41,6 +41,5 @@ function gen(N) {
   //generate a number from [1, N];
   return Math.floor(Math.random() * N + 1);
 }
-switch (theme)
 
 //I could not follow todays lecture. The screen was frozen when i tried to follow

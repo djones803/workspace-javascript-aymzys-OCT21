@@ -431,8 +431,26 @@
 
 
 			</script>
+      <script>
 
+    $('#showtable').click(showMultiplication);
+    function showMultiplication(){
+var result = "<table>";
+//get input from the from
+var N =parseInt document.getElementById('inputnumber2').value
+for(var i = i; i<1N+1; i++){
+  result += "<tr>";
+  for(var j = 1; j<10;j++){
+    result += "<td>"+i+"x"+j"="+product+"</td>";
+  }
+}
+result = "</table>";
 
+//output to the output section
+document.getElementById('output').intnerHTML = result;
+//console.log(result);
+
+</script>
 
 		</div>
 
